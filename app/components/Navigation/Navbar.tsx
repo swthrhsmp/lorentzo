@@ -6,7 +6,7 @@ import NavLinks from "./NavLinks";
 
 const Navbar = () => {
   return (
-    <nav className="p-6  flex justify-between">
+    <nav className="p-6  flex justify-between items-center">
       <Logo />
       <Burger />
       <NavLinks />

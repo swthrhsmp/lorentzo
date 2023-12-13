@@ -1,12 +1,12 @@
 import Link from "next/link";
 import Hero from "./components/Home/Hero";
-import Welcome from "./components/Home/Welcome";
+import Work from "./components/Home/Work";
 
 export default function Home() {
   return (
     <main className="flex flex-col">
       <Hero />
-      <Welcome />
+      <Work />
     </main>
   );
 }
