@@ -1,7 +1,8 @@
 import React from "react";
-import background from "../../../public/hero.jpg";
+import background from "../../../public/assets/hero.jpg";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import Container from "./Container";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -45,7 +46,9 @@ const Hero = () => {
               </h2>
             </li>
           </ul>
-          <button className="btn">Επικοινωνια</button>
+          <Link href="/contact" className="btn">
+            Επικοινωνία
+          </Link>
         </div>
       </Container>
     </section>

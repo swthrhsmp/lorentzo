@@ -21,22 +21,27 @@ const Burger = () => {
               <Logo />
             </li>
             <li>
-              <Link href="" className="btn  grid place-content-center">
+              <Link href="/" className="btn  grid place-content-center" onClick={() => document.getElementById("my-drawer")?.click()}>
                 Αρχική
               </Link>
             </li>
             <li>
-              <Link href="" className="btn  grid place-content-center">
+              <Link href="/services" className="btn  grid place-content-center" onClick={() => document.getElementById("my-drawer")?.click()}>
                 Υπηρεσίες
               </Link>
             </li>
             <li>
-              <Link href="" className="btn  grid place-content-center">
+              <Link href="#works" className="btn  grid place-content-center" onClick={() => document.getElementById("my-drawer")?.click()}>
                 Οι Δουλείες μας
               </Link>
             </li>
             <li>
-              <Link href="" className="btn  grid place-content-center">
+              <Link href="/about" className="btn  grid place-content-center" onClick={() => document.getElementById("my-drawer")?.click()}>
+                Σχετικά με εμάς
+              </Link>
+            </li>
+            <li>
+              <Link href="/contact" className="btn  grid place-content-center" onClick={() => document.getElementById("my-drawer")?.click()}>
                 Επικοινωνία
               </Link>
             </li>

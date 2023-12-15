@@ -4,6 +4,7 @@ import Logo from "./Logo";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import { FaLocationDot } from "react-icons/fa6";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -17,7 +18,7 @@ const Footer = () => {
             <header className="footer-title">Επικοινωνία</header>
             <p className="flex items-center gap-1">
               <FaLocationDot />
-              <a href={`tel:6999999999`}>Κιάτο κορινθίας</a>
+              <a href={`https://maps.app.goo.gl/jaj9BxXcYo6KQRLd9`}>Κιάτο Κορινθίας, 20200</a>
             </p>
             <p className="flex items-center gap-1">
               <BsFillTelephoneFill />
@@ -29,17 +30,16 @@ const Footer = () => {
             </p>
           </nav>
           <nav>
-            <header className="footer-title">Company</header>
-            <a className="link link-hover">About us</a>
-            <a className="link link-hover">Contact</a>
-            <a className="link link-hover">Jobs</a>
-            <a className="link link-hover">Press kit</a>
-          </nav>
-          <nav>
-            <header className="footer-title">Legal</header>
-            <a className="link link-hover">Terms of use</a>
-            <a className="link link-hover">Privacy policy</a>
-            <a className="link link-hover">Cookie policy</a>
+            <header className="footer-title">Εταιρεία</header>
+            <Link href="/" className="link link-hover">
+              Επικοινωνία
+            </Link>
+            <Link href="#works" className="link link-hover">
+              Οι δουλειές μας
+            </Link>
+            <Link href="/about" className="link link-hover">
+              Σχετικα με εμάς
+            </Link>
           </nav>
         </footer>
       </Container>

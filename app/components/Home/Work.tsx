@@ -4,7 +4,7 @@ import Gallery from "./Gallery";
 
 const Work = () => {
   return (
-    <section className="flex flex-col items-center">
+    <section id="works" className="flex flex-col items-center">
       <Container>
         <div className="w-full p-5">
           <h1 className="font-extrabold text-2xl md:text-4xl mb-4">Οι δουλείες μας</h1>
