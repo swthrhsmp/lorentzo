@@ -31,7 +31,7 @@ const Burger = () => {
               </Link>
             </li>
             <li>
-              <Link href="#works" className="btn  grid place-content-center" onClick={() => document.getElementById("my-drawer")?.click()}>
+              <Link href="/works" className="btn  grid place-content-center" onClick={() => document.getElementById("my-drawer")?.click()}>
                 Οι Δουλείες μας
               </Link>
             </li>

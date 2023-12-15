@@ -8,9 +8,9 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div className="footer flex justify-center bg-slate-800 text-white ">
+    <div className="flex flex-col items-center bg-slate-800 text-white ">
       <Container>
-        <footer className="footer p-10 ">
+        <footer className="footer pt-10 pb-6 px-6 ">
           <aside>
             <Logo />
           </aside>
@@ -42,6 +42,14 @@ const Footer = () => {
             </Link>
           </nav>
         </footer>
+      </Container>
+      <div className="divider divider-neutral"></div>
+      <Container>
+        <div className="pb-2 px-6 mt-[-15px]">
+          <a href="https://balas.dev" className="text-sm">
+            Made with ❤️
+          </a>
+        </div>
       </Container>
     </div>
   );
