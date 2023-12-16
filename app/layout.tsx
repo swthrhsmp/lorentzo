@@ -3,7 +3,7 @@ import "./globals.css";
 import { Roboto } from "next/font/google";
 import Navbar from "./components/Navigation/Navbar";
 import Footer from "./components/Navigation/Footer";
-import ogImage from "@/public/assets/101.jpg";
+import ogImage from "@/public/assets/works/101.jpg";
 
 const roboto = Roboto({
   weight: ["400", "700"],
@@ -13,7 +13,7 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "Lorentzo | Βιομηχανικά Δέπεδα",
+  title: "Lorentzo | Βιομηχανικά Δάπεδα, Σταμπωτά Δάπεδα, Αντιολισθηρές Ράμπες",
   description: "Βιομηχανικά Δάπεδα, Σταμπωτά Δάπεδα, Αντιολισθηρές Ράμπες",
   keywords: ["σταμπωτά", "δάπεδα", "ράμπες", "πατητή", "τσιμεντοκονία", "πατητή τσιμεντοκονία", "βιομηχανικά δάπεδα", "αντιολισθηρές ράμπες"],
   metadataBase: new URL("https://lorentzo.vercel.app"),
