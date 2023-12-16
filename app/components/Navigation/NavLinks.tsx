@@ -18,7 +18,7 @@ const NavLinks = () => {
         </li>
         <li>
           <Link href="/works" className=" px-2 py-2 rounded-lg">
-            Οι Δουλείες μας
+            Τα έργα μας
           </Link>
         </li>
         <li>

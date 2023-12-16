@@ -32,7 +32,7 @@ const Burger = () => {
             </li>
             <li>
               <Link href="/works" className="btn  grid place-content-center" onClick={() => document.getElementById("my-drawer")?.click()}>
-                Οι Δουλείες μας
+                Τα έργα μας
               </Link>
             </li>
             <li>

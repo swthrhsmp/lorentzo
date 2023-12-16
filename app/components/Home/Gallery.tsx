@@ -16,6 +16,8 @@ const Gallery = () => {
       original: img.src,
       thumbnail: img.src,
       loading: "lazy",
+      originalAlt: "image of our work",
+      thumbnailAlt: "thumbnail image of our work",
     };
   });
   return <ImageGallery lazyLoad items={images} />;
