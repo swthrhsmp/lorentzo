@@ -14,6 +14,14 @@ const roboto = Roboto({
 export const metadata: Metadata = {
   title: "Lorentzo | Βιομηχανικά Δέπεδα",
   description: "Βιομηχανικά Δάπεδα, Σταμπωτά Δάπεδα, Αντιολισθηρές Ράμπες",
+  metadataBase: new URL("https://lorentzo.vercel.app"),
+  openGraph: {
+    images: {
+      url: "https://images.pexels.com/photos/926427/pexels-photo-926427.jpeg",
+      width: 1200,
+      height: 630,
+    },
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
