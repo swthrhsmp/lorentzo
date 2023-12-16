@@ -10,7 +10,7 @@ const Burger = () => {
       <div className="block md:hidden">
         <input id="my-drawer" type="checkbox" className="drawer-toggle" />
         <div className="drawer-content">
-          <label htmlFor="my-drawer" className="btn ">
+          <label htmlFor="my-drawer" className="btn">
             <RxHamburgerMenu size={24} />
           </label>
         </div>

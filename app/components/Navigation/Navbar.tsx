@@ -6,7 +6,7 @@ import NavLinks from "./NavLinks";
 
 const Navbar = () => {
   return (
-    <nav className="py-4 px-6 fixed top-0 flex justify-between items-center w-full bg-white z-50">
+    <nav className="h-[112px] px-6 fixed top-0 flex justify-between items-center w-full bg-white z-50">
       <Logo />
       <Burger />
       <NavLinks />

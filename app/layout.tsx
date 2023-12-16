@@ -19,9 +19,9 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html data-theme="light" lang="el" className={`${roboto.className} scroll-smooth`}>
-      <body className="flex flex-col pt-28">
+      <body className="flex flex-col min-h-screen pt-28">
         <Navbar />
-        {children}
+        <main className="flex flex-col flex-1">{children}</main>
         <Footer />
       </body>
     </html>
