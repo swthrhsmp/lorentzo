@@ -36,7 +36,7 @@ const Hero = () => {
             <li>
               <h2 className="flex items-center gap-2 text-1xl md:text-3xl">
                 <MdOutlineKeyboardArrowRight />
-                Ραμπών
+                Αντιολισθητικών ραμπών
               </h2>
             </li>
             <li>

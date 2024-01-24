@@ -1,7 +1,6 @@
 import React from "react";
 import background from "@/public/assets/contact.jpg";
 import { FaPhone, FaMobileAlt } from "react-icons/fa";
-import { FaLocationDot } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import Container from "../components/Home/Container";
 import ImgWithText from "../components/Shared/ImgWithText";
